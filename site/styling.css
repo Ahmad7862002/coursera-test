@@ -1,0 +1,33 @@
+p , a{
+	background-color: blue;
+	border: 1px solid black;
+	width: 100%;
+text-align: center;
+margin-right: auto;
+margin-left: auto;
+padding: 0px;
+
+
+div{
+	box-sizing: border-box;
+	border: 1px solid black;
+	padding:20px;
+	float: left;
+
+}
+@media (min-width: 1200px){
+	div {
+	width:8.33%;
+	}
+}
+@media (min-width: 900px) and (max-width: 1199px){
+	div{
+	width: 25%;
+	}
+
+}
+@media (max-width: 899px){
+	div{
+		width: 100%;
+	}
+}
