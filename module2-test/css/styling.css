@@ -11,38 +11,37 @@ padding:10px;
 #cn{
 	background-color: #6A8EF0;
 	float:right;
-	border-left: 2px solid black;
-	border-bottom: 2px solid black;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
 	font-size: 150%;
 	position:relative;
-	left:0.5px;
 	bottom: 0.5px;
+	left: 0.5px;
 
 }
 #bf{
 	background-color: #EE8340;
 	float:right;
-	border-left: 2px solid black;
-	border-bottom: 2px solid black;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
 	font-size: 150%;
 	width:50px;
 	position:relative;
-	left:0.5px;
 	bottom: 0.5px;
+	left: 0.5px;
 }
 #sh{
 	background-color: #61CD59;
 	float:right;
-	border-left: 2px solid black;
-	border-bottom: 2px solid black;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
 	font-size: 150%;
 	position:relative;
-	left:0.5px;
-	bottom: 0.5px;
+	left: 0.2px;
 }
 
 div>section{
-	border: 2px solid black;
+	border: 1px solid black;
 	box-sizing: border-box;
 	margin-right: auto;
 	margin-left: auto;
@@ -69,6 +68,6 @@ p{
 }
 @media (max-width: 767px){
 	.border{
-		width:99%;
+		width:100%;
 	}
 }
