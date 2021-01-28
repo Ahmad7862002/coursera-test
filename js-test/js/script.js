@@ -73,12 +73,38 @@ var x="54";
 //radius : 34};
 //console.log(array[3]);
 //var names= ["HEY" , "JUDE", "DONT"];
-(function (window){var yaakoovgreeter = {};
-yaakoovgreeter.name= "Yaakov";
-var greeting = "Hello ";
-yaakoovgreeter.syhello= function () {
-console.log(greeting + yaakoovgreeter.name );
+//(function (window){var yaakoovgreeter = {};
+//yaakoovgreeter.name= "Yaakov";
+//var greeting = "Hello ";
+//yaakoovgreeter.syhello= function () {
+//console.log(greeting + yaakoovgreeter.name );
+//}
+//window.yaakoovgreeter= yaakoovgreeter;
+//})(window);
+//yaakoovgreeter.syhello();
+
+
+///////////////////////////////////////////////////////////////////
+/***************************************************************************/
+
+document.addEventListener("DOMContentLoaded",function (event) {
+
+function print(event) {
+var name=	document.getElementById("enter").value;
+var message = "<h2>Hello " + name + "!</h2>";
+document.getElementById("content").innerHTML= message;
 }
-window.yaakoovgreeter= yaakoovgreeter;
-})(window);
-yaakoovgreeter.syhello();
+document.querySelector("button")
+.addEventListener("blur",print);
+
+document.querySelector("body")
+.addEventListener("mousemove",function (event) {
+	
+	console.log(event.clientX);
+	var x = 700;
+	event.clientX= x;
+
+});
+
+});
+

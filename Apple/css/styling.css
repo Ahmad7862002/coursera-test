@@ -1,0 +1,162 @@
+body{
+font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;	font-weight: bold;
+	font-size: 16px;
+	color: #86868b;
+	font-weight: normal;
+	position: relative;
+	min-height: 100vh;
+
+	padding-bottom: 300px;
+
+}
+ol{
+	padding: 0;
+	margin: 0;
+}
+#cols div div{
+color: #1d1d1f;
+font-weight: 600;
+}
+#link{
+margin-top: auto;
+margin-bottom: auto;
+float: left;
+clear: left;
+padding-top:3px;
+padding-bottom: 3px;
+color: #86868b;
+
+
+}
+#pic1{ 
+	width: 50%;
+	height: 400px;
+	padding-top: 9px;
+ }
+
+#main{
+	padding-top: 40px;
+	padding-right: 0;
+	padding-left: 0;
+	padding-bottom: 50px;
+}
+#al{
+	height: 200px;
+	text-align: left;
+
+}
+.panel-footer {
+ 
+  padding-top: 35px;
+  background-color: #cbcbcb;
+
+}
+#retailer{
+	padding-top: 100px;
+	color: #06c;
+	clear: left;
+}
+#header{
+	position: fixed;
+	width: 100%;
+	opacity: 0.9999;
+	padding-bottom: 40px;
+	top: 0;
+}
+
+footer{
+height: 630px;
+background-color: #cbcbcb;
+width:100%;
+position:absolute;
+bottom: ;
+
+}
+#res{
+display: inline-block;
+text-align: left;
+	padding-right: 0px;
+}
+#break{
+	border:1px solid #d2d2d7;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+#add{
+	width: 100%;
+	margin-top: 20px;
+    border:1px solid #d2d2d7;
+}
+#lang{
+	
+	clear: left;
+float: right;
+}
+#lang2{
+	margin-right: 3px;
+	margin-left: 3px;
+	color:#86868b;
+}
+#head{
+	padding-top: 40px;
+}
+#footer{
+	padding-top: 20px;
+margin-right: auto;
+margin-left: auto;
+font-size:12.2px;
+text-align: center;
+padding-left: 0;
+padding-right: 0;
+}
+#text:hover {
+	color:white;
+}
+#nav{
+ background: rgba(0,0,0,0.8);
+ border-radius: 0;
+ border: 0;
+ min-height: 40px;
+ height: 40px;
+ margin: 0;
+
+}
+img{
+	width: 14px;
+	height: 17.5px;
+	position: relative;
+	bottom: 3px;
+
+}
+
+#text{
+	color:  #cbcbcb ;
+    margin-left:2%;
+    margin-right: 2%;
+	text-decoration: none;
+}
+section{
+	height: 40px;
+	padding: 8.5px;
+}
+#cols{
+	padding: 0;
+	text-align: center;
+}
+#cont{
+	height: 40px;
+	padding: 0;
+margin-right: auto;
+margin-left: auto;
+}
+#cont2{
+	width: 100%;
+	height: 40px;
+}
+section .visible-xs img{
+	width: 16px;
+	height: 20px;
+}
+
+
+
